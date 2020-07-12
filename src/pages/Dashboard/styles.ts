@@ -13,6 +13,10 @@ export const Title = styled.h1`
   max-width: 450px;
 
   margin-top: 80px;
+
+  @media (max-width: 470px) {
+    max-width: 300px;
+  }
 `;
 
 export const Form = styled.form<FormProps>`
@@ -21,6 +25,10 @@ export const Form = styled.form<FormProps>`
   max-width: 700px;
 
   display: flex;
+
+  @media (max-width: 425px) {
+      min-width: 100%;
+    }
 
   input {
     flex: 1;
@@ -62,6 +70,15 @@ export const Form = styled.form<FormProps>`
 
     &:hover {
       background: ${shade(0.2, '#04d361')};
+    }
+  }
+
+  }
+
+  @media (max-width: 659px) {
+    button {
+      max-width: 110px;
+      min-width: 85px;
     }
   }
 `;
@@ -120,6 +137,14 @@ export const Repositories = styled.div`
   svg {
     margin-left: auto;
     color: #cbcbd6;
+  }
+
+  @media (max-width: 425px) {
+    min-width: 380px;
+
+    div {
+      margin: 0 15px;
+    }
   }
 `;
 
