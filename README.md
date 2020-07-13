@@ -4,7 +4,13 @@
 
 # GitHub Explorer
 
-This is a web page made using the GitHub API to list users repositories and its issues.
+This is a web page made using the GitHub API to list users repositories and its issues.  
+Application 100% responsive.  
+
+
+![Github explorer demonstration gif](https://github.com/cgmbauer/assets/blob/master/gifs/github-explorer.gif)   
+
+
 
 ## Built With
 
