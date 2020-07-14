@@ -20,6 +20,8 @@ Application 100% responsive.
 
 - [GitHub API](https://developer.github.com/v3/)
 
+- [TypeScript v.3.7.2](https://www.typescriptlang.org/)
+
 ## Getting Started
 
 ### Requiremtents
