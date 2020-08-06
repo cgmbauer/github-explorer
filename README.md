@@ -28,7 +28,7 @@ Application 100% responsive.
 
 - [yarn v.1.x.x](https://classic.yarnpkg.com/en/docs/install)
 
-### Instalation
+### Installation
 
 - Clone this repository:
 ```sh
